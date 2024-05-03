@@ -1,0 +1,15 @@
+{
+    "datasets": 
+        [
+            {
+            "path": "path/to/data1",
+            "keys": ["input_ids"],
+            "weight": 1.0
+            },
+            {
+                "path": "path/to/data2",
+                "keys": ["input_ids"],
+                "weight": 2.0
+            }
+        ]
+}
