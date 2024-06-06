@@ -23,7 +23,7 @@ dataset = load_dataset("c4")
 ```
 Users can follow this data format to pre-train with other datasets, facilitating comparative analysis across different model designs using NanoLM.
 
-
+We also curated and filtered pre-training datasets from existing large-scale models for researchers using NanoLM. Access the datasets at [NanoLM Data](https://huggingface.co/datasets/CofeAI/NanoData).
 ## 🏗️ Fast Usage
 
 
@@ -80,8 +80,8 @@ This project incorporates and modifies code from the following open-source repos
 
 ## Citation
 ```
-@misc{yao2024Nanolm,
-      title={NanoLM: an Affordable LLM Pre-training Benchmark via Accurate Loss Prediction across Scales}, 
+@misc{yao2024nanolm,
+      title={nanoLM: an Affordable LLM Pre-training Benchmark via Accurate Loss Prediction across Scales}, 
       author={Yiqun Yao and Siqi fan and Xiusheng Huang and Xuezhi Fang and Xiang Li and Ziyi Ni and Xin Jiang and Xuying Meng and Peng Han and Shuo Shang and Kang Liu and Aixin Sun and Yequan Wang},
       year={2024},
       eprint={2304.06875},
